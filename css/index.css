@@ -1,28 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-/*body*/
-body{
-    margin:0;
+
+/* Style the body */
+body {
+    margin: 0;
 }
-header{
-    padding:80px;
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
     text-align: center;
-    background: azure;
-    /*color: white;*/
+    background: black;
+    color: #ffffff;
 }
+
 /* Increase the font size of the heading */
-.header h1{
+.header h1 {
     font-size: 40px;
 }
+
 /* Style the top navigation bar */
-.navbar{
+.navbar {
     overflow: hidden;
     background-color: #333;
 }
+
 /* Style the navigation bar links */
 .navbar a {
     float: left;
@@ -32,6 +38,7 @@ header{
     padding: 14px 20px;
     text-decoration: none;
 }
+
 /* Right-aligned link */
 .navbar a.right {
     float: right;
@@ -65,6 +72,13 @@ header{
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
     background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
     padding: 20px;
 }
 
